@@ -1,0 +1,426 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../images/ojass_black_nb.png">
+	<title>OJASS'17 - Events</title>
+	<!-- food icons -->
+	<link rel="stylesheet" type="text/css" href="css/demo1.css" />
+	<link rel="stylesheet" type="text/css" href="css/animate1.css" />
+	<link rel="stylesheet" type="text/css" href="css/component1.css"/>
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+	<script src="js/modernizr-custom.js"></script>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style1.css"> <!-- Resource style -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+	
+</head>
+
+<body>
+<div id="preloader" style="background:rgba(0,0,0,1);z-index:20;position:fixed;width:100%;height:100%;top:0;left:0">
+</div>
+<audio>
+    <source src="../audio/pi.mp3" type="audio/mpeg"></source>
+</audio>
+<audio>
+    <source src="../audio/orbroll1.mp3" type="audio/mpeg"></source>
+</audio>
+<audio>
+    <source src="../audio/orbroll2.mp3" type="audio/mpeg"></source>
+</audio>
+	<div id="particles-js" style="position:fixed;"></div>
+	<div id="bg"></div>
+	<div id="pattern1"></div>
+	<div id="pattern"></div>
+	<!--div class="el"
+     style=" position:fixed;width:200px;height:200px;top:120px;right:120px;margin-right:-100px;margin-top:-100px;z-index:21">
+</div-->
+<a href = "../"><div class="el"
+     style=" position:fixed;width:200px;height:200px;top:50%;right:50%;margin-right:-100px;margin-top:-100px;z-index:21">
+</div></a>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		
+		<button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+		<nav id="ml-menu" class="menu">
+			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+			<header class="bp-header cf">
+			<div class="dummy-logo">
+				<div class="dummy-icon"><a href="../index.html"><img src="../images/circle1.png" style="margin-top:-80px;margin-left:-10px;"></a></div>
+				<h2 class="dummy-heading">OJASS</h2>
+			</div>
+
+		</header>
+			<div class="menu__wrap">
+				<ul data-menu="main" class="menu__level">
+					<li class="menu__item"><a class="menu__link" data-submenu="aakriti" href="#">Aakriti</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="armageddon" href="#">Armageddon</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="arthashashtra" href="#">Arthashastra</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="avartan" href="#">Avartan</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="circuithouse" href="#">Circuit House</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="deusxmachina" href="#">Deus-x-machina</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="exposition" href="#">Exposition</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="livecs" href="#">Live CS</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="neodrishti" href="#">Neo Drishti</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="nogroundzone" href="#">No Ground Zone</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="nscet" href="#">NSCET</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="paraphernalia" href="#">Paraphernalia</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="produs" href="#">Produs</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="prayas" href="#">Prayas</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="riseofmachines" href="#">Rise of Machines</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="siliconvalley" href="#">Silicon Valley</a></li>
+					<li class="menu__item"><a class="menu__link" data-submenu="vishwacodegenesis" href="#">Vishwa CodeGenesis</a></li>
+				</ul>
+				<!-- Submenu 1 -->
+				<ul data-menu="vishwacodegenesis" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">CodeMania</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Bug-Dkarmas Bash</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Code-For-Shu987</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">WEB VOGUE</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">AppDroid</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">CodeKarmas Bot</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Shubh-Scripthon</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Shubh-DBQuery</a></li>
+					<li class="menu__item"><a class="menu__link" href="#"></a></li>
+				</ul>
+				<ul data-menu="armageddon" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">CS Go</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Dota</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">FIFA</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">NFS</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">ANGRY BIRDS</a></li>
+				</ul>
+				<ul data-menu="arthashashtra" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">Bizzathlon</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">WOLF OF DALAL STREET</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">let's startup</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">ABC</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">CORPORATE ROADIES</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">NEETISHASTRA</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">SELFIE AD</a></li>
+				</ul>
+				<ul data-menu="aakriti" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">SANRACHNA</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">ACUMEN</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">METROPOLIS</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">ARCHMADEEASE</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">EXEMPLER</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">PIPE-O-MANIA</a></li>
+				</ul>
+				<ul data-menu="avartan" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">CHITRANKIT</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">AGNIKUND</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Indus solva</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">METAL TRIVIA</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">FUNTOOSH</a></li>
+				</ul>
+				<ul data-menu="circuithouse" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">High Voltage Concepts</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">MAT-SIM</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">PRO-LO-CO</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">NEXUS </a></li>
+					<li class="menu__item"><a class="menu__link" href="#">ELECTRO-Q</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">ELIXIR OF ELECTRICITY</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">WHO AM I (WHI)</a></li>
+				</ul>
+				<ul data-menu="deusxmachina" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">Kurukshetra</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Tacylon</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Shape Shifter</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">360 Mania</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Mac Fifa</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Battleship</a></li>
+				</ul>
+				<ul data-menu="neodrishti" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">Codebug</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Codiyapa</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Game of Troves</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Scratch Easy</a></li>
+					
+					<li class="menu__item"><a class="menu__link" href="#">Simply SQL</a></li>
+				</ul>
+				<ul data-menu="livecs" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">Live CS</a></li>
+				</ul>
+				<ul data-menu="nogroundzone" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">MICAV</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Touch Down The Plane</a></li>
+				</ul>
+				<ul data-menu="nscet" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">NSCET</a></li>
+				</ul>
+				<ul data-menu="paraphernalia" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">Director's Cut</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">LENS VIEW</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Mad Ad</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">SciFi</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">The Great Ojass Race</a></li>
+				</ul>
+				<ul data-menu="produs" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">Artifact</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Dronagyan</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Industrial Tycoon</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Udyog</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Utpreksh</a></li>
+				</ul>
+				<ul data-menu="prayas" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">PRATIBIMB</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">JAGRITI</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">SAMVEDNA</a></li>
+				</ul>
+				<ul data-menu="riseofmachines" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">Accelodrome</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">ANSYS</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">AUTO QUIZ</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">ENIGMA</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Junk Yard Wars</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">MOTO VIRTUALE 2017</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Prakshepan</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">SAMVEG</a></li>
+				</ul>
+				<ul data-menu="siliconvalley" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">ANALOG HUNTER</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">CODESENSE</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">DIGIZONE</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">EMBETRIX</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">JIGYASA</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">NETKRAFT</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">TUKVILLA</a></li>
+				</ul>
+				<ul data-menu="exposition" class="menu__level">
+					<li class="menu__item"><a class="menu__link" href="#">EXPOSICION</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="content no-touch" style="position:relative;overflow:hidden;">
+			<div class = "bheading">Events</div><span class="sexy_line"></span><div class="img"><img src = "eventimages/ojass.jpg"></div>
+		</div>
+	</div>
+	<!-- /view -->
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/heads.js"></script>
+	<script src="../js/three.min.js"></script>
+	<script src="../js/CanvasRenderer.js"></script>
+	<script src="../js/Projector.js"></script>
+	 <script src="../js/TweenMax.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.mCustomScrollbar.min.js" type="text/javascript"></script>
+	<script src="../js/main1.js" type="text/javascript"></script>
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	gridWrapper = document.querySelector('.content');
+	  var config = {
+		apiKey: "AIzaSyAe4LCbOWO0mOksOc-fWwBa39OPrePxA_I",
+		authDomain: "ojass17-94a14.firebaseapp.com",
+		databaseURL: "https://ojass17-94a14.firebaseio.com",
+		storageBucket: "ojass17-94a14.appspot.com",
+		messagingSenderId: "563048678217"
+	  };
+	  firebase.initializeApp(config);
+	data = [];
+	firebase.database().ref('/events/').once('value',function(snap){
+		$.each(snap.val(),function(i,field){data[field.name]=field;});
+		console.log(snap.val());
+		var menuEl = document.getElementById('ml-menu'),
+			mlmenu = new MLMenu(menuEl, {
+				//breadcrumbsCtrl : true, // show breadcrumbs
+				//initialBreadcrumb : 'all', // initial breadcrumb text
+				backCtrl : true, // show back button
+				itemsDelayInterval : 60, // delay between each menu item sliding animation
+				onItemClick: loadDummyData, // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+				onItemClick1: loadData,
+				initial: ''
+			});
+			$('.cd-nav-trigger').on('hover',function(e){e.preventDefault()});
+		
+
+		// mobile menu toggle
+		var openMenuCtrl = document.querySelector('.action--open'),
+			closeMenuCtrl = document.querySelector('.action--close');
+
+		openMenuCtrl.addEventListener('click', openMenu);
+		closeMenuCtrl.addEventListener('click', closeMenu);
+
+		function openMenu() {
+			classie.add(menuEl, 'menu--open');
+		}
+
+		function closeMenu() {
+			classie.remove(menuEl, 'menu--open');
+		}
+		// simulate grid content loading
+		
+		function loadDummyData(ev, itemName) {
+			ev.preventDefault();
+
+			closeMenu();
+			gridWrapper.innerHTML = '';
+			classie.add(gridWrapper, 'content--loading');
+			setTimeout(function() {
+				var curr = data[itemName];
+				classie.remove(gridWrapper, 'content--loading');
+				var template = '<nav class="cd-stretchy-nav add-content"><a class="cd-nav-trigger" href="#0"><span aria-hidden="true"></span></a><ul><li><a href="0"><span>About</span><i class="fa fa-question-circle"></i></a></li><li><a href="1"><span>Details</span><i class="fa fa-info-circle"></i></a></li><li><a href="2"><span>Rules</span><i class="fa fa-bookmark"></i></a></li><li><a href="3"><span>Prize</span><i class="fa fa-inr"></i></a></li><li><a href="4"><span>Results</span><i class="fa fa-check-circle"></i></a></li><li><a href="5"><span>Contact</span><i class="fa fa-user"></i></a></li></ul><span aria-hidden="true" class="stretchy-nav-bg"></span></nav><div class="tabs" style="position:absolute;top:130px;right:0;width:85%;height:400px;overflow:hidden;"><div class="title">'+curr.name+'</div><div id="top-line"></div><div class="share"><a href="#"><i class="fa fa-facebook"></i>facebook</a></div><div id="bottom-line"></div><section id="0"><div class="tab-title">about</div><div class="scroll">'+
+				curr.about+'</div></section><section id="1"><div class="tab-title">details</div><div class="scroll">'+
+				curr.detail+'</div></section><section id="2" class = "rules"><div class="tab-title">rules</div><div class="scroll"><ul>';
+				if(curr.rules){$.each(curr.rules,function(i,field){
+					template+='<li>'+field.text+'</li>';
+				});}
+				template+='</ul></div></section><section id="3"><div class="tab-title">prize</div><div class="scroll">';
+				if(curr.name=="Director's Cut")
+				 	{
+				 		template+='FIRST : 12500<br>';
+				 		template+='SECOND : 8500<br>';
+				 		template+='THIRD : 6500<br>';
+				 		template+='best trailer : 1500<br>';
+				 		template+='best actor : 1000<br>';
+				 		template+='best actress : 1000<br>';
+				 		template+='best cinematography : 1000<br>';
+				 		template+='best story : 1000<br>';
+				 		template+='best editor : 1000<br>';
+				 		template+='TOTAL : 34000<br>';
+
+				 	}
+				/*else if(curr.name=="NSCET")
+{
+template+="Total Prize : 30000";
+}
+				else if(curr.prize.first){
+				 $.each(curr.prize, function(k, v){
+				 	template+=k+': '+v+'<br>';
+				 });
+				}*/
+				else{
+					
+					$.each(curr.prize, function(k, v){
+					if(v instanceof Object){
+						template+=k+': <br>';
+						$.each(v, function(a, b){
+				 	template+=a+': '+b+'<br>';
+				 });
+				 	template+='<br>';
+					}
+					else
+					{
+						template+=k+': '+v+'<br><br>';
+						
+					}
+				 });
+				}
+				template+='</div></section><section id="4"><div class="tab-title">Results</div><div class="scroll">Will be coming soon..</div></section><section id="5" class="contact"><div class="tab-title">Contact</div><div class="scroll">';
+				$.each(curr.coordinators,function(i,field){
+					template+='<div><span class="name">'+field.name+'</span><br><span class="phone"><i class = "fa fa-phone"></i>'+field.phone+'</span></div>';
+				});
+				template+='</div></section></div><div class="btnRight" style="z-index: 100;"><img class="btnRightArrow" src="img/arrowRight.png" style="opacity: 1;"><div class="btnRightLineBg"></div><div class="btnRightLine" style="width: 30px; opacity: 1;"></div></div>';
+		
+				$( ".content" ).html(template);
+					function reveal(id , callback){
+						$('section').css('display','none');
+						$('section').removeClass('animated fadeInUp');
+						$('#'+id).css('display','block');
+						$('#'+id+' div').addClass('animated fadeInUp');
+						current = id;
+						callback(id);
+					};
+					function adjustline(id){
+						$('#top-line').css('width',parseInt($('.tabs').width()) - parseInt($('#'+id+' .tab-title').width())-20);
+						$('#bottom-line').css('width',parseInt($('.tabs').width()) - parseInt($('.share').width())-20);
+					};
+					reveal(0,adjustline);
+					
+					var stretchyNavs = $('.cd-stretchy-nav');
+					stretchyNavs.each(function(){
+						var stretchyNav = $(this),
+							stretchyNavTrigger = stretchyNav.find('.cd-nav-trigger');
+						
+						stretchyNavTrigger.on('click', function(event){
+							event.preventDefault();
+							stretchyNav.toggleClass('nav-is-visible');
+						});
+					});
+					$('.cd-stretchy-nav li a').on('click',function(e){
+						e.preventDefault();
+						reveal($(this).attr('href'),adjustline);
+					});
+					$('.btnRight').on('click',function(e){
+						e.preventDefault();
+						reveal((parseInt(current)+1)%6,adjustline);
+					});
+					
+					$('.scroll').mCustomScrollbar();
+					$(window).resize(function(){adjustline(current)});
+					
+					$('.btnRight').mouseenter(function(){
+						TweenMax.to($('.btnRightLine'),.2,{width:0,ease: Expo.easeOut,
+						onComplete: function() {
+							TweenMax.fromTo($('.btnRightArrow'),.6,{opacity:0,x:-20},{x:0,opacity:1,ease: Expo.easeOut});
+							TweenMax.fromTo($('.btnRightLine'),.6,{opacity:0, x: -40, width:60},{opacity:1,x:0,width:30,ease: Expo.easeOut});
+						}
+					});
+					TweenMax.to($('.btnRightArrow'),.2,{x:20,opacity:0,ease: Expo.easeOut});
+		});
+			}, 700);
+		};
+		function loadData(ev, itemName){
+			if(ev!='undefined'){
+			ev.preventDefault();}
+			closeMenu();
+			gridWrapper.innerHTML = '';
+			classie.add(gridWrapper, 'content--loading');
+			$('.dummy-heading').removeClass('animated fadeInUp');
+			setTimeout(function() {
+				classie.remove(gridWrapper, 'content--loading');
+				//$( ".content" ).load('http://localhost/ojass/events/add.html' );
+				
+				$('.dummy-heading').html(itemName);
+				$('.dummy-heading').addClass('animated fadeInUp');
+				var template = '<div class = "bheading">'+itemName+'</div><span class="sexy_line"></span><div class="img"><center><img src = "eventimages/'
+				+itemName+'.jpg"></center></div><div class="heads"><div class = "bheading" style="margin-top:20px;">Branch Heads</div><span class="sexy_line"></span><ul>';
+				var h = heads[itemName];
+				for(var i=0;i<h['name'].length;i++){
+					template+= '<li style = "width:'+100/h['name'].length+'%"><span class = "bname">'+h['name'][i]+'</span><span class = "bphone"><i class="fa fa-phone"></i>'+h['phone'][i]+'</span></li>'
+				}
+				template+='</ul></div>';
+				$('.content').html(template);
+			}, 500);
+		}
+		$('.all,.menu__back').on('click',function(){
+			$('.dummy-heading').removeClass('animated fadeInUp');
+			setTimeout(function() {
+				classie.remove(gridWrapper, 'content--loading');
+				$('.dummy-heading').html('Ojass');
+				$('.dummy-heading').addClass('animated fadeInUp');
+				var template = '<div class = "bheading">Events</div><span class="sexy_line"></span><div class="img"><img src = "eventimages/ojass.jpg"></div>';
+				$('.content').html(template);
+			}, 500);
+		});
+		//$(window).load(function(){
+$('#preloader').css('display','none');
+			TweenMax.to($('.el'),2,{top:'120px',right:'120px',ease:Expo.easeInOut,delay:1,onComplete:function(){
+					
+					shouldRender=true;
+				}});
+		//});
+	});
+	
+	//$.getJSON('https://ojass17-94a14.firebaseio.com/events.json',function(result){$.each(result,function(i,field){data[field.name]})});
+	</script>
+	<script>particlesJS("particles-js", {"particles":{"number":{"value":269,"density":{"enable":false,"value_area":10000}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":false,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});</script>
+	<script>
+	
+    var audio = document.getElementsByTagName("audio")[0];
+    var sphereenter = document.getElementsByTagName("audio")[1];
+    var sphereleave = document.getElementsByTagName("audio")[2];
+
+	
+	</script>
+</body>
+
+</html>

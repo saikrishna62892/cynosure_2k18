@@ -1,0 +1,184 @@
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="cynosure2k18.in" resolutions="1x" timestamp="1519751624410">
+  <folder name="css">
+    <file name="site_global.css" crc="3775815987"/>
+    <file name="index.css" crc="300330330" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="logo.png" crc="4100725509" seo="true" mt="1517564498000"/>
+    <file name="loading.gif" crc="3780476959" seo="true" mt="1517995406000"/>
+    <file name="oie_2rjoh0rjtv24.gif" crc="3788754396" seo="true" mt="1518074262000"/>
+    <file name="sri-venkateswara-university.docx" crc="178246248" seo="true" mt="1518026764000"/>
+    <file name="eventss.pdf" crc="4066967624" seo="true" mt="1519495770000"/>
+    <file name="sri-venkateswara-university.pdf" crc="4247876033" seo="true" mt="1519444056000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="4232573551" ref="phone>index:tablet>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:tablet>index:index"/>
+    <file name="museconfig.js" crc="3849126041" ref="phone>index:tablet>index:index"/>
+    <file name="webpro.js" crc="3770351119" ref="phone>index:index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="phone>index:index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="phone>index:index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="phone>index:index"/>
+    <file name="require.js" crc="4234670167" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="technology-keyboard_00211660493x278.jpg" crc="4225119897" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
+    <file name="8a84f6081395d2337e77552ae2998041493x278.jpg" crc="410844772" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="goo.gif" crc="387917057" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:index"/>
+    <file name="sv-university-logo-500-blue (1).png" crc="4238036529" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1517919730305-1236-.png" crc="3958142045" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pointer.png" crc="3760686964" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u3344-12.png" crc="3758253872" ref="phone>index"/>
+    <file name="untitled-1(1).png" crc="17207350" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook-live-brc-preview2.png" crc="4097925340" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="580b57fcd9996e24bc43c545.png" crc="460682073" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="debian-os_wallpprscom_-crop-u4216.jpg" crc="4199539557" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_2560x1024.jpg" crc="354716675" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="parallax.jpg" crc="89465596" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="apple_laptop_hd_desktop_photo.jpg" crc="171524767" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1519475732674-1493-.png" crc="4175672793" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1519475505860-1490-187x94.png" crc="4284712693" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1519476174362-1496-.png" crc="3873763365" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="220px-dominos_pizza_logosvg.png" crc="4000764134" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cp-kiosk-5star-logo_grande.png" crc="3957323026" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo(1).png" crc="76079435" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook white.png" crc="356578863" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="email white.png" crc="487201782" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="youtube white.png" crc="3871597477" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter white.png" crc="236858956" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="home-favicon.ico" crc="523812773" ref="index"/>
+    <file name="technology-keyboard_00211660.jpg" crc="34677298" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="8a84f6081395d2337e77552ae2998041.jpg" crc="255181898" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u2170-12.png" crc="92722473" ref="index"/>
+    <file name="debian-os_wallpprscom_-crop-u4197.jpg" crc="440968066" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="68415202-internet-wallpapers-crop-u6028.jpg" crc="111322902" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="superb_hd_laptop_background_wallpaper-crop-u6018.jpg" crc="4038398454" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="virtual placemensts-crop-u6096.jpg" crc="85900267" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="online-crop-u6128.jpg" crc="143221839" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="geek-crop-u6108.jpg" crc="251164652" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="techie-crop-u6116.jpg" crc="250879224" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="37437425-anonymous-wallpaper-hd-crop-u6894.jpg" crc="448530777" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="quiz-crop-u6138.jpg" crc="495940133" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mmm-crop-u6166.jpg" crc="363588333" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fun games-crop-u6178.jpg" crc="3905794108" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vr-crop-u6186.jpg" crc="4049670494" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="expo.jpg" crc="117429274" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1519475505860-1490-.png" crc="3846013880" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="3948741586" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="4120346273" seo="true" mt="1518248272792" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="4216991407" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="187522792" seo="true" mt="1519751602997" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="3893948730" seo="true" mt="1519616783277" redirect="true"/>
+</manifest>
